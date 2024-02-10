@@ -1,0 +1,24 @@
+.storyimage{
+    width: 250px;
+}
+/* pseudo selectors */
+/* 1.targetting child */
+.container .storyheading h1{
+    color: rgb(47, 108, 179);
+}
+/* combinators */
+/* 1. >imediate child */
+/* 2. +imediate sibling */
+/* 3. ~genral sibling */
+ ul>li{
+    color: orange;
+
+ }
+ /* li+li{
+    font-size: 28px;
+    background-color: black;
+ } */
+ li~li{
+    background-color: blueviolet;
+
+ }

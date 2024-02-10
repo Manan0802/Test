@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- css:cascading style sheets this is just to beautify our code
+    three ways to imply css -->
+    <!-- 1.internal css:(head ke andar style tag use karke banana) -->
+    <!-- 2.inline CSS seedha line mai hi daldiya  -->
+    <!-- 3.external CSS -->
+
+<head>
+    
+    <title>Document</title>
+    <style>
+        /* yeh tag ke through */
+        div{
+            color: gold;
+            background-color: black;
+        }
+        /* yeh hogaya class ke through */
+        .mydiv{
+            font-size: 34px;
+        }
+        /* specificity of elements: */
+        /* elementname<classname<id<inline */
+        /* for id   */
+        #div1{
+            color: teal;
+            font-size: 10px;
+
+        }
+    </style>
+</head>
+<body>
+    <!-- spearte classes bhi bana saktte hai mtlb different nam ki -->
+    <div id="div"  class="mydiv">This is my div </div>
+    <div id="div1" class="mydiv" style="font-size: 50px;">This is my div-1</div>
+    <div id="div2" class="mydiv">This is my div-2</div>
+    
+</body>
+</html>

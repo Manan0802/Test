@@ -1,0 +1,15 @@
+.storyImage{
+    height: 100px;
+}
+
+/* 1. DESCENDANT SELECTOR */
+.container .storyHeading h1{
+    color: rgb(47, 108, 179);
+}
+/* list styles */
+/* pseudoclass */
+.listitem:nth-child(2n+3){
+    text-decoration: underline;
+    background-color: black;
+    color: aliceblue;
+}

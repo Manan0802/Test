@@ -1,0 +1,56 @@
+@media screen and (max-width:1400px) and (min-width: 900px){
+    .item{
+        width: 200px;
+        height: 300px;
+        border: 1px solid black;
+        display: inline-block;
+        margin: 10px 20px;
+        font-size: 40px;
+    }
+    .item-1{
+        background-color: burlywood;
+    }
+    .item-2{
+        background-color: greenyellow;
+
+    }
+    .item-3{
+        background-color: rgb(201, 19, 19) ;
+
+    }
+    .item-4{
+        background-color: aqua;
+
+    }
+    .item-5{
+        background-color: pink;
+    }
+}
+@media screen and (max-width:899px) {
+    .item{
+        width: 90%;
+        height: 300px;
+        border: 1px solid black;
+        display: block;
+        margin: 10px 20px;
+        font-size: 40px;
+    }
+    .item-1{
+        background-color: burlywood;
+    }
+    .item-2{
+        background-color: greenyellow;
+
+    }
+    .item-3{
+        background-color: rgb(202, 36, 36) ;
+
+    }
+    .item-4{
+        background-color: aqua;
+
+    }
+    .item-5{
+        background-color: pink; 
+    }
+}

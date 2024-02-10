@@ -1,0 +1,21 @@
+.box{
+    height: 300px;
+    width: 300px;
+    background-color: aqua;
+    margin: auto;
+    /* transform: rotateX(75deg); */
+    /* transform: skewX(20deg);  */
+    transition-duration: 1s;
+    transition-timing-function: cubic-bezier(0.42, 0, 1,-1.11)
+
+    /* iss se kya hogaa jaise hi hover hategaa toh wapis anne mai bhi 2 sec lagenge  */
+}
+.box:hover{
+    transform: rotatez(10turn);
+    transition-duration: 2s;
+    border-radius: 50%;
+    background-color: green;
+    color: black;
+    overflow: hidden;
+
+}
